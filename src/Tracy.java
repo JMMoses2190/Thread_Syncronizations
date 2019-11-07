@@ -17,7 +17,7 @@ class Tracy implements Runnable {
 
         garden.waitToFill();
         garden.fill();
-        Thread.sleep(rand.nextInt(500)); // Filling
+        Thread.sleep(rand.nextInt(500)); // Filling every 500 milliseconds
       }
     } catch (InterruptedException e) {
       System.out.println(e);

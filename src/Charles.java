@@ -16,7 +16,7 @@ class Charles implements Runnable {
 
         garden.waitToPlant();
         garden.Plant();
-        Thread.sleep(rand.nextInt(500)); // Planting
+        Thread.sleep(rand.nextInt(500)); // Planting every 500 millisecond
       }
     } catch (InterruptedException e) {
       System.out.println(e);
